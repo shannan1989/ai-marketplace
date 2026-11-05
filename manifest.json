@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "png-to-scale9sprite",
+      "path": "plugins/ttl-resources/skills/png-to-scale9sprite/SKILL.md",
+      "description": "将 PNG 转换为适用于 Cocos2d-x Scale9Sprite 的九宫格图片，保留四角和透明度，支持设置边角及中间拉伸区域尺寸。用于“PNG 转九宫格”“转成 Scale9Sprite 图片”“压缩九宫格中间区域”等请求。独立于具体项目，不生成 Android .9.png 标记，也不自动识别拉伸边界。",
+      "tags": []
+    }
+  ]
+}

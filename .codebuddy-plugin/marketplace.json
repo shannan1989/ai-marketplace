@@ -1,10 +1,16 @@
 {
-  "name": "shannan-skills",
-  "description": "山南的技能合集",
+  "name": "shannan-skill-market",
+  "description": "WorkBuddy + Codex 双兼容技能源",
   "owner": {
     "name": "山南"
   },
   "plugins": [
-    
+    {
+      "name": "ttl-resources",
+      "source": "./plugins/ttl-resources",
+      "description": "ttl-resources，包含技能：png-to-scale9sprite",
+      "version": "1.0.0",
+      "strict": true
+    }
   ]
 }

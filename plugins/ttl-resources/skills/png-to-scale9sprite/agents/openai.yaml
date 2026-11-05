@@ -1,0 +1,6 @@
+interface:
+  display_name: "PNG 转 Scale9Sprite 九宫格"
+  short_description: "独立的 PNG 九宫格转换工具，生成 Scale9Sprite 图片，保留四角及透明度"
+
+policy:
+  allow_implicit_invocation: true
