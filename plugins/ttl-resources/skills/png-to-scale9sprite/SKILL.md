@@ -1,9 +1,9 @@
 ---
 name: png-to-scale9sprite
-description: 将 PNG 转换为适用于 Cocos2d-x Scale9Sprite 的九宫格图片，保留四角和透明度，支持设置边角及中间拉伸区域尺寸。用于“PNG 转九宫格”“转成 Scale9Sprite 图片”“压缩九宫格中间区域”等请求。独立于具体项目，不生成 Android .9.png 标记，也不自动识别拉伸边界。
+description: 将 PNG 转为 Cocos2d-x Scale9Sprite 九宫格图片，保留四角与透明度，输出 capInsets 切片参数。用于“PNG 转九宫格”“转成 Scale9Sprite 图片”“压缩九宫格中间区域”等请求；边角尺寸由用户指定，不生成 Android .9.png 标记。
 ---
 
-# PNG 转 Scale9Sprite 九宫格
+# PNG 九宫格转换
 
 将 PNG 按九宫格分区缩放，输出可用于 `Scale9Sprite` 的普通 PNG 及对应的 `capInsets`。不依赖业务项目、游戏工程或 Cocos2d-x 运行环境。
 

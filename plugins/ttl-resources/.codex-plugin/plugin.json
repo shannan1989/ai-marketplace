@@ -1,23 +1,36 @@
 {
   "name": "ttl-resources",
-  "version": "1.0.0",
-  "description": "将 PNG 转换为适用于 Cocos2d-x Scale9Sprite 的九宫格图片，保留四角和透明度，支持设置边角及中间拉伸区域尺寸。用于“PNG 转九宫格”“转成 Scale9Sprite 图片”“压缩九宫格中间区域”等请求。独立于具体项目，不生成 Android .9.png 标记，也不自动识别拉伸边界。",
+  "version": "1.0.1",
+  "description": "游戏 UI 资源处理工具，支持 PNG 九宫格转换",
   "author": {
-    "name": "山南"
+    "name": "山南",
+    "url": "https://github.com/shannan1989"
   },
+  "homepage": "https://github.com/shannan1989/ai-marketplace/tree/main/plugins/ttl-resources",
+  "repository": "https://github.com/shannan1989/ai-marketplace",
+  "keywords": [
+    "游戏 UI",
+    "资源处理",
+    "PNG",
+    "九宫格",
+    "Cocos2d-x",
+    "Scale9Sprite"
+  ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "ttl-resources",
-    "shortDescription": "包含技能：png-to-scale9sprite",
-    "longDescription": "将 PNG 转换为适用于 Cocos2d-x Scale9Sprite 的九宫格图片，保留四角和透明度，支持设置边角及中间拉伸区域。",
+    "displayName": "TTL 资源工具箱",
+    "shortDescription": "游戏 UI 资源处理工具，支持 PNG 九宫格转换",
+    "longDescription": "为游戏 UI 开发提供实用的资源处理技能。当前包含 PNG 九宫格转换：按指定尺寸保留四角与透明度，压缩中间拉伸区域，生成可用于 Cocos2d-x Scale9Sprite 的普通 PNG，并输出 capInsets 切片参数。\n\n使用时提供 PNG 图片和需要保留的边角尺寸即可；中间区域宽高可选。默认生成新文件，保留原图。需要 Python 3.9+ 和 Pillow 9.1+；安装套件不会自动安装 Python 依赖。输出不包含 Android .9.png 标记。",
     "developerName": "山南",
     "category": "Developer Tools",
-    "capabilities": ["Read", "Write"],
-    "websiteURL": "https://github.com/shannan1989/ai-marketplace",
-    "privacyPolicyURL": "https://github.com/shannan1989/ai-marketplace",
-    "termsOfServiceURL": "https://github.com/shannan1989/ai-marketplace",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/shannan1989/ai-marketplace/tree/main/plugins/ttl-resources",
     "defaultPrompt": [
-      "使用 png-to-scale9sprite 将 PNG 转换为九宫格图片"
+      "把这张 PNG 转成九宫格，左右、上下各保留 20 像素。",
+      "把这张 PNG 的中间区域压缩到 1×1 像素，左右、上下各保留 20 像素。"
     ]
   }
 }

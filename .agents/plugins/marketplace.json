@@ -1,7 +1,7 @@
 {
-  "name": "shannan-skill-market",
+  "name": "shannan-ai-marketplace",
   "interface": {
-    "displayName": "山南的 Codex 技能"
+    "displayName": "山南的AI工具市场"
   },
   "plugins": [
     {

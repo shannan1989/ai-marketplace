@@ -1,0 +1,10 @@
+{
+  "name": "shannan-ai-marketplace",
+  "displayName": "山南的AI工具市场",
+  "description": "分享日常工作中实用的 AI 技能",
+  "owner": {
+    "name": "山南",
+    "url": "https://github.com/shannan1989"
+  },
+  "repository": "https://github.com/shannan1989/ai-marketplace"
+}

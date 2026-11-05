@@ -1,15 +1,31 @@
 {
-  "name": "shannan-skill-market",
-  "description": "WorkBuddy + Codex 双兼容技能源",
+  "name": "shannan-ai-marketplace",
+  "description": "山南的AI工具市场：分享日常工作中实用的 AI 技能",
   "owner": {
-    "name": "山南"
+    "name": "山南",
+    "url": "https://github.com/shannan1989"
   },
   "plugins": [
     {
       "name": "ttl-resources",
       "source": "./plugins/ttl-resources",
-      "description": "ttl-resources，包含技能：png-to-scale9sprite",
-      "version": "1.0.0",
+      "description": "TTL 资源工具箱：游戏 UI 资源处理工具，支持 PNG 九宫格转换",
+      "version": "1.0.1",
+      "author": {
+        "name": "山南",
+        "url": "https://github.com/shannan1989"
+      },
+      "homepage": "https://github.com/shannan1989/ai-marketplace/tree/main/plugins/ttl-resources",
+      "repository": "https://github.com/shannan1989/ai-marketplace",
+      "keywords": [
+        "游戏 UI",
+        "资源处理",
+        "PNG",
+        "九宫格",
+        "Cocos2d-x",
+        "Scale9Sprite"
+      ],
+      "category": "Developer Tools",
       "strict": true
     }
   ]

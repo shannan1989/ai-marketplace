@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "generate": "node scripts/generate-marketplace.js",
+    "check": "node scripts/generate-marketplace.js --check"
+  },
   "dependencies": {
     "gray-matter": "^4.0.3"
   }

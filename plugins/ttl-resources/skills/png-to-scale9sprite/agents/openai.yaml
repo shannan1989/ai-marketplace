@@ -1,6 +1,7 @@
 interface:
-  display_name: "PNG 转 Scale9Sprite 九宫格"
-  short_description: "独立的 PNG 九宫格转换工具，生成 Scale9Sprite 图片，保留四角及透明度"
+  display_name: "PNG 九宫格转换"
+  short_description: "保留四角与透明度，将 PNG 转为 Scale9Sprite 图片并输出切片参数"
+  default_prompt: "使用 $png-to-scale9sprite 把这张 PNG 转成九宫格，左右、上下各保留 20 像素。"
 
 policy:
   allow_implicit_invocation: true

@@ -1,7 +1,22 @@
 {
   "name": "ttl-resources",
-  "version": "1.0.0",
-  "description": "将 PNG 转换为适用于 Cocos2d-x Scale9Sprite 的九宫格图片，保留四角和透明度，支持设置边角及中间拉伸区域尺寸。用于“PNG 转九宫格”“转成 Scale9Sprite 图片”“压缩九宫格中间区域”等请求。独立于具体项目，不生成 Android .9.png 标记，也不自动识别拉伸边界。",
+  "version": "1.0.1",
+  "description": "TTL 资源工具箱：游戏 UI 资源处理工具，支持 PNG 九宫格转换",
+  "author": {
+    "name": "山南",
+    "url": "https://github.com/shannan1989"
+  },
+  "homepage": "https://github.com/shannan1989/ai-marketplace/tree/main/plugins/ttl-resources",
+  "repository": "https://github.com/shannan1989/ai-marketplace",
+  "keywords": [
+    "游戏 UI",
+    "资源处理",
+    "PNG",
+    "九宫格",
+    "Cocos2d-x",
+    "Scale9Sprite"
+  ],
+  "category": "Developer Tools",
   "skills": [
     "./skills/png-to-scale9sprite"
   ]
